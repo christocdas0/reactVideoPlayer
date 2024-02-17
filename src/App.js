@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { createContext, useRef, useState } from "react";
+import Header from "./components/Header";
+import "./App.css";
+import SearchBar from "./components/SearchBar";
+import VideoSection from "./components/VideoSection";
+import { SearchPlayListFn } from "./constants/SearchPlayListFn";
+import {SetSeekFn} from './constants/SetSeekFn'
+
+export const videoPlayerContext = createContext(null);
 
 function App() {
+  const videoPlayerData = require("./data/videoPlayerData.json");
+  const [currVideoPlayerData, setCurrVideoPlayerData] = useState(
+    videoPlayerData.data[0]
+  );
+  const [filteredPlayerData, setFilteredPlayerData] = useState(videoPlayerData.data);
+  const videoPlayerRef = useRef(null);
+ 
+  const videoPlayerStateInitialData = {
+    currVideoPlayerData,
+    setCurrVideoPlayerData,
+    videoPlayerData,
+    videoPlayerRef,
+    filteredPlayerData,
+    setFilteredPlayerData,
+    SearchPlayListFn,
+    SetSeekFn
+  };
+  const updateVideoPlayerContext = (item) => {
+    setCurrVideoPlayerData(item);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <videoPlayerContext.Provider
+        value={{ videoPlayerStateInitialData, updateVideoPlayerContext }}
+      >
+        <Header />
+        <SearchBar />
+        <VideoSection />
+      </videoPlayerContext.Provider>
+    </>
   );
 }
 
