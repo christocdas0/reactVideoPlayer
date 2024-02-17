@@ -1,4 +1,4 @@
-# Diployed App url : 
+# Hosted version App url : 
     https://65d0df8a0e2459b95304dd1c--guileless-gelato-30bdbe.netlify.app/
 # How to run this App in locally ? 
 ## step-1 
