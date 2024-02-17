@@ -13,20 +13,46 @@ step-4
 
 # Main Features of this App.
 1.) Topbar :(Simply showing Title and one icon)
+
 2.) Search Bar :
-        we can search/filter videos based in video title 
-        eg : if we search cake then we will get videos related to cake.
-        eg : if we search english then we will get videos related to english.
-3.) Video Play Section : Playing videos based on user selection.
-        Controlls,
-        Sound adjustment,
-        seekTiming,
-        fullscreen mode
-4.) PlayList Section : Showing Videos List,
-        Video Image, Video Title, Video Viwes, uploaded and who uploaded.
-5.) if we click the Image in the particular video Play list, then that video will play in the video play section.
-6.) we can drag and drop/ re-order the playlist.
-7.) 
+        === Main Features ===
+            ✅ Search/Filter 
+                eg : if we search cake then we will get videos related to cake.
+                eg : if we search english then we will get videos related to english.
+
+3.) Video Player Component : Playing videos based on user selection.
+        === Main Features ===
+            ✅ Play/Pause toggle.
+            ✅ Seek functionality.
+            ✅ Timer displaying current playback time and duration.
+            ✅ Autoplay.
+            ✅ Speed selector for playback speed adjustment.
+            ✅ Controlls,
+            ✅ fullscreen mode
+            ✅ Settings 
+
+4.) Playlist Component : Showing Videos List.
+        === Main Features ===
+            ✅ Allow users to reorder videos in the playlist
+            ✅ Clicking on a video in the playlist should load and play that video in the video player. (click the playlist item image.)
+
+5.) Additional Features.
+            ✅ FullScren Mode
+            ✅ volume control
+            ✅ search/filter functionality
+            ✅ Fully responsive (Mobile, tab, lap and large devices.)
+            ✅ Continue playing from where users left-off
+
+
+6.) React State Management:
+            ✅ UseState, UseContext
+            
+
+# Tech Stack :
+            ✅ React.js
+            ✅ Styled components (for style)
+
+
 
 
 
