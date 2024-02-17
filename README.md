@@ -1,5 +1,5 @@
 # Diployed App url : 
-    https://65d0cce6a5c298af307c0a39--quiet-pithivier-d6e1f4.netlify.app/
+    https://65d0df8a0e2459b95304dd1c--guileless-gelato-30bdbe.netlify.app/
 # How to run this App in locally ? 
 ## step-1 
     clone (url : https://github.com/christocdas0/react_video_player_app.git) or download the code from github repo
