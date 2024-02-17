@@ -25,7 +25,7 @@ export const playListItemRenderer = (
   videoPlayerStateInitialData,
   updateVideoPlayerContext
 ) => {
-  let itemImg = require(`../images/img-${index + 1}.png`);
+  let itemImg = require(`../images/img-${item.id}.png`);
   if (item.img) {
     itemImg = item.img;
   }
