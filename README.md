@@ -54,6 +54,8 @@
 # Tech Stack :
             ✅ React.js
             ✅ Styled components (for style)
+            ✅ react-player npm for play video
+            ✅ RLDD npm for re-order playlist.
 
 
 
