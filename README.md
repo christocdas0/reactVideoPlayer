@@ -14,16 +14,16 @@
 
 
 # Main Features of this App.
-## 1.) Topbar :
+## 1. Topbar :
         Simply showing Title and one icon
 
-## 2.) Search Bar :
+## 2. Search Bar :
         === Main Features ===
             ✅ Search/Filter 
                 eg : if we search cake then we will get videos related to cake.
                 eg : if we search english then we will get videos related to english.
 
-## 3.) Video Player Component : 
+## 3. Video Player Component : 
         === Main Features ===
             ✅ Play/Pause toggle.
             ✅ Seek functionality.
@@ -34,12 +34,12 @@
             ✅ fullscreen mode
             ✅ Settings 
 
-## 4.) Playlist Component : 
+## 4. Playlist Component : 
         === Main Features ===
             ✅ Allow users to reorder videos in the playlist
             ✅ Clicking on a video in the playlist should load and play that video in the video player. (click the playlist item image.)
 
-## 5.) Additional Features :
+## 5. Additional Features :
             ✅ FullScren Mode
             ✅ volume control
             ✅ search/filter functionality
@@ -47,7 +47,7 @@
             ✅ Continue playing from where users left-off
 
 
-## 6.) React State Management :
+## 6. React State Management :
             ✅ UseState, UseContext
 
 
